@@ -1,0 +1,32 @@
+<html>
+<head>
+
+</head>
+<body>
+	
+	<script type="text/javascript" >
+	 var faradios = 123;
+	 var henrios = 123; 
+	 var frecuencia = 123 ; 
+	 var pi= 6.28; 
+	 	 function XCyXl(){
+	 var cuentaXc = pi*frecuencia*faradios;
+	 var XC= 1/cuentaXc;
+	 var XL= pi*frecuencia*henrios;
+
+	 document.write("VALORES UTILIZADOS"	);		
+	 document.write("<br/><br/> FARADIOS =  " +faradios  ); 
+	 document.write("<br/><br/> HENRIOS =  " +henrios ); 
+	 document.write("<br/><br/> FRENCUENCIA =  " +frecuencia) ; 
+
+	 document.write("<br/><br/> Valor  XC= " +XC);
+	 document.write("<br/><br/> Valor  XL= " +XL);
+	 document.write('<p><a href="../index.html">INDEX</a></p>')
+
+
+	 }
+	 	
+	</script>
+	
+	<input type="button" onclick="XCyXl()" value="Valores de XC y XL">
+	<p><a href="../index.html">INDEX</a></p>
